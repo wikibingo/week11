@@ -14,3 +14,7 @@ const greet = name => console.log(`Hello ${name}!`); #can remove parenthesis if 
 
 let input = prompt("enter name:");
 greet(input)
+
+const greet = (name, time = "day") =>{
+    console.log(`Hello ${time} ${name}!`)
+};
